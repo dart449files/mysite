@@ -1,1 +1,3 @@
 # mysite
+
+permalink: /index.html
