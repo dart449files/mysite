@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>js examples 1</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+		</style>
+</head>
+
+
+
+<body id="background">
+	
+	<main>
+		<section>
+			<!-- <h2>Hey, how's about you learn me some</h2> -->
+			<h1>Wanna learn something?</h1>
+			<article id="showcase">
+				<h2>Title of Card</h2>
+				<p>lorum imsup fake sample <br>text blah blach blah about <br>this much fake sample text</p>
+			</article>
+			<button class="crazy" onclick="addFunction()">yes</button>
+			<!-- <button onclick="subFunction()">sub me</button> -->
+		</section>
+	</main>
+
+	<article id="display">
+		<h1>Javascript</h1>
+		<p>Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah Lorum Ipsum blah blah blah</p>
+		<span id="close" onclick="hideMe()">X</span>
+	</article>
+
+	<!-- <button id="trigger" onclick="showMe()">show something</button> -->
+
+	<script>
+	// var x = 10;
+	// var y = 5;
+	// var total = x + y;
+	// document.getElementById("showcase").innerHTML = "the total amount is now " + total;
+	
+	// var total = 0;
+
+	// document.getElementById("showcase").innerHTML = "total points: " + total;
+
+	function addFunction() {
+		// total = total + 1;
+		// total+=15;
+		// document.getElementById("showcase").innerHTML = "total points: " + total;
+		// document.getElementById("showcase").style.top = total + "%";
+		document.getElementById("background").style.backgroundColor = "black";
+		document.getElementById("background").style.backgroundImage = "none";
+		document.getElementById("showcase").style.top = "45%";
+
+
+	}
+
+	function subFunction() {
+		// total = total + 1;
+		total-=15;
+		document.getElementById("showcase").innerHTML = "total points: " + total;
+		document.getElementById("showcase").style.top = total + "%";
+	}
+
+	function showMe(){
+		document.getElementById("display").style.opacity = 1;
+	}
+
+	function hideMe(){
+		document.getElementById("display").style.opacity = 0;
+
+	}
+
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
