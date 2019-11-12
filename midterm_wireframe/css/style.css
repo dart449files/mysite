@@ -441,7 +441,7 @@ align-items: center;
 	text-align: center;
 	color: white;
 	font-family: 'Nunito Sans', sans-serif;
-	position: absolute;
+	/* position: absolute; */
 	margin-bottom: 40px;
 }
 
@@ -450,7 +450,13 @@ align-items: center;
 }
 
 
-
+#s20{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 100vh;
+	background-color: #0ABAB5;
+}
 
 
 
