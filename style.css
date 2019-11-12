@@ -1,0 +1,175 @@
+-* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, Verdana, Tahoma, sans-serif, sans-serif;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+#about{
+    font-size: 88px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: url(https://media.giphy.com/media/Ik9GfAuXsFtwQ/giphy.gif) no-repeat fixed center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+
+}
+
+.about_btn{
+    color: crimson;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    height: 800px;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.exercises_btn{
+    color: gold;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    height: 800px;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.projects_btn{
+    color: crimson;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    height: 800px;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.readings_btn{
+    color: gold;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    height: 800px;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.exercises{
+    background: url(https://media.giphy.com/media/B2vBunhgt9Pc4/giphy.gif) no-repeat fixed center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vmax;
+}
+
+.exercise_list a{
+    color: palevioletred;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 82px;
+    height: 800px;
+    width: 100%;
+    padding-left: 10%;
+    line-height: 150px;
+}
+
+.projects{
+    background: url(https://media.giphy.com/media/VkIet63SWUJa0/giphy.gif) no-repeat fixed center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vmax;
+}
+
+.project_list a{
+    color: lime;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 82px;
+    height: 800px;
+    width: 100%;
+    padding-left: 10%;
+    line-height: 150px;
+}
+
+.readings{
+    background: url(https://steamuserimages-a.akamaihd.net/ugc/168157445636207244/C7BFD071BFF3D9CA14E38C7E29EE2D399BF64AE5/) no-repeat fixed center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vmax;
+}
+
+.reading_list a{
+    color: rgb(255, 25, 205);
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 42px;
+    height: 800px;
+    width: 100%;
+    padding-left: 10%;
+    line-height: 150px;
+}
+
+
+.about_me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.about_me h2{
+    height: 200px;
+    width: 100%;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 68px;
+}
+
+.about_me p{
+    height: 200px;
+    width: 100%;
+    padding-top: 50;
+    text-align: center;
+    font-size: 22px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav a{
+    color: limegreen;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding-left: 90%;
+    padding-top: 1%;
+    
+}
