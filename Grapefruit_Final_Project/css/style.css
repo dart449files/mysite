@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 @import url('https://fonts.googleapis.com/css?family=Tinos:700&display=swap');
-@import url("fonts/AvenirNextCyr-Regular/stylesheet.css");
+/* @import url("fonts/AvenirNextCyr-Regular/stylesheet.css"); */
 @import url("fonts/TimesNewRoman/stylesheet.css");
 
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: local('Avenir Next Regular'), local('Avenir-Next-Regular'),
+        url('fonts/AvenirNextCyr-Regular/AvenirNextCyr-Regular.woff2') format('woff2'),
+        url('fonts/AvenirNextCyr-Regular/AvenirNextCyr-Regular.woff') format('woff'),
+        url('fonts/AvenirNextCyr-Regular/AvenirNextCyr-Regular.ttf') format('truetype');
+    /* font-weight: 400; */
+    font-style: normal;
+  }
 
 
 /* === CSS RESET === */
@@ -183,7 +193,7 @@ section {
 #s3 p{
 	font-size: 28px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
 	font-family: Avenir Next;
