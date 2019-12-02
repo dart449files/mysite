@@ -25,6 +25,7 @@
 html, body {
 	height: 100%;
 	background-color: #0ABAB5;
+	width: 100vw;
 
 }
 
@@ -236,7 +237,7 @@ section {
 #yourtext{
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
 	font-family: Avenir Next;
@@ -248,7 +249,7 @@ section {
 #foodWasteIs{
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
 	font-family: Avenir Next;
@@ -283,7 +284,7 @@ section {
 	margin-top: -300px;
 	font-size: 28px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	text-align: center;
 	width: 800px;
 	color: white;
@@ -305,7 +306,7 @@ section {
 #s6 p{
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	text-align: center;
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
@@ -354,7 +355,7 @@ section {
 #s8 p{
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
 	font-family: Avenir Next;
@@ -369,7 +370,7 @@ section {
 	color: brown;
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	text-align: center;
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
@@ -397,7 +398,7 @@ section {
 #s10 p{
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	text-align: center;
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
@@ -489,7 +490,7 @@ width: 80%;
 #s15 p{
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
 	font-family: Avenir Next;
@@ -672,7 +673,7 @@ width: 80%;
 	margin-top: -300px;
 	font-size: 26px;
 	line-height: 40px;
-	font-weight: 300;
+	/* font-weight: 300; */
 	text-align: center;
 	color: white;
 	/* font-family: 'Nunito Sans', sans-serif; */
