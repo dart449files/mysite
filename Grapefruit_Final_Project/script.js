@@ -421,7 +421,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#textPin2", duration: 1000})
           
               }
               else{
-                 $("#textPin4").html("Why does everything have to look perfect");
+                 $("#textPin4").html("Why does everything have to look perfect?");
               }
               })
           
@@ -430,7 +430,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#textPin2", duration: 1000})
           
                       // console.log(controller.info("scrollDirection"))
           
-                      $("#textPin4").html("Why does everything have to look perfect");
+                      $("#textPin4").html("Why does everything have to look perfect?");
                       // $("#progress").text(e.progress.toFixed(3));
                       console.log(e.progress.toFixed(3))
                     }
@@ -441,7 +441,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#textPin2", duration: 1000})
           
                     .on("leave", function (e) {
                       if(controller.info("scrollDirection")==='FORWARD'){
-                        $("#textPin4").html("Why does everything have to look perfect");
+                        $("#textPin4").html("Why does everything have to look perfect?");
                       }
           
           
