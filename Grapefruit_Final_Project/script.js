@@ -1,4 +1,11 @@
 
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+
 var controller = new ScrollMagic.Controller();
 
 $(function () { // wait for document ready
